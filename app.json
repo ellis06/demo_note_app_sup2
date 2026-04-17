@@ -1,0 +1,33 @@
+{
+  "name": "mynotes",
+  "orientation": "portrait",
+  "userInterfaceStyle": "light",
+  "version": "1.0.0",
+  "ios": {
+    "supportsTabletMode": true
+  },
+  "android": {
+    "adaptiveIcon": {
+      "backgroundColor": "#ffffff",
+      "foregroundImage": "./assets/adaptive-icon.png"
+    }
+  },
+  "splash": {
+    "image": "./assets/splash.png",
+    "backgroundColor": "#ffffff",
+    "resizeMode": "contain"
+  },
+  "scheme": "mynotes",
+  "web": {
+    "favicon": "./assets/favicon.png"
+  },
+  "icon": "./assets/icon.png",
+  "plugins": [
+    "expo-router"
+  ],
+  "slug": "mynotes",
+  "expo": "51.0.0",
+  "assetBundlePatterns": [
+    "**/*"
+  ]
+}
